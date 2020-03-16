@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="parameters">
+    <test name="loginparameter ">
+        <classes>
+
+            <parameter name="name" value="liyanhong" />
+            <parameter name="password" value="123456" />
+
+            <class name="com.course.testng.suite.LoginTest" />
+        </classes>
+    </test>
+
+</suite>

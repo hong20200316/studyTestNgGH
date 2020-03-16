@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite  name="testsuite">
+
+    <!-- 套件测试 -->
+    <test name="login">
+        <classes>
+            <class name="com.course.testng.BaseAnnotation" />
+            <class name="com.course.testng.suite.LoginTest"/>
+
+        </classes>
+
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.course.testng.BaseAnnotation"/>
+            <class name="com.course.testng.suite.PayTest"/>
+
+        </classes>
+
+    </test>
+
+    <!--类分组测试 -->
+    <test name="classGroups">
+
+        <groups>
+            <run>
+                <include name="base"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.course.testng.suite.PayTest"/>
+            <class name="com.course.testng.suite.LoginTest"/>
+            <class name="com.course.testng.BaseAnnotation"/>
+        </classes>
+    </test>
+
+
+</suite>

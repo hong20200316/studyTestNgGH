@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HClient.iml" filepath="$PROJECT_DIR$/HClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HClinent.iml" filepath="$PROJECT_DIR$/HClinent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestCoding.iml" filepath="$PROJECT_DIR$/TestCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/report/report.iml" filepath="$PROJECT_DIR$/report/report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studytestng.iml" filepath="$PROJECT_DIR$/studytestng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testNgSd/testNgSd.iml" filepath="$PROJECT_DIR$/testNgSd/testNgSd.iml" />
+    </modules>
+  </component>
+</project>
