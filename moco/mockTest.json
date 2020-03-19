@@ -60,16 +60,17 @@
     }
   },
   {
-    "description":"带cookies信息的get请求",
+    "description":"cookies作为请求信息的get请求",
     "request":{
       "uri":"/getCookies",
       "method":"get",
       "cookies":{
-        "token":"1234"
+        "login":"true",
+        "token":"123456"
       }
     },
     "response":{
-      "text":"这是一个带cookies的get请求！！"
+      "text":"这是请求参数中带cookies的get请求！！"
     }
   },
   {
@@ -117,6 +118,21 @@
       "method":"get"
     },
     "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"cookies作为响应信息的get请求",
+    "request":{
+      "uri":"/getReturnCookies",
+      "method":"get"
+    },
+    "response":{
+      "text":"Cookies信息login=true",
+      "cookies":{
+        "login":"true",
+        "token":"123456"
+      }
+
+    }
   }
 
 ]
